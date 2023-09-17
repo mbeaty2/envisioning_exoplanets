@@ -5,6 +5,6 @@ The results and evaluation can be found in the thesis report. This repository, i
 1. getting_images: A notebook used to search and save images from NASA's Image and Video Library
 2. prompt_generator_functions: A notebook used to clean and process the data, translate values, and generate prompts
 3. training_data_prompts: Training Dataset as a .csv file updated with numeric data and the generated prompts
-4. updated_training_prompts: Training Dataset used to preprocess and download images and create a metadata file for training the Stable Diffusion model
+4. updated_training_prompts: A simplified Training Dataset used to preprocess and download images and create a metadata file for training the Stable Diffusion model
 5. exoplanet_data_prompts: Exoplanet Dataset as a .csv file updated with the generated prompts
 6. getting_training_datasets: A notebook used to download the images from our training_data_prompts file, save them as 512x512 images, and write the necessary metadata file used to train Stable Diffusion and push all data to HuggingFace.
