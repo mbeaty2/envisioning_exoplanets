@@ -41,7 +41,9 @@ If using the python files:
 * Download the .py files
 * Open a terminal and locate where the downloaded datasets and files are on your local machine.
 * Create a new environment to run everything in.
-* Run this line in your terminal: python main.py -d <data_directory> --clean-data --topic-modeling --save-model
+* Run this line in your terminal to get and save images: python script.py -k <your_api_key> --planet-photographs
+* Run this line in your terminal to get and save images: python script.py -k <your_api_key> --planet-photographs
+
 
 Please note that this project manipulated and adapted a Kohya Notebook to fine-tune Stable Diffusion, available here: https://colab.research.google.com/drive/1ZVukUuUMLxIZ6BgX7loKSMxcoBhfg70B#scrollTo=XhXhQY5Sov-g. As well as an Automatic1111 WebUI made available by The Last Ben, available here: https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb#scrollTo=Baw78R-w4T2j.
 
