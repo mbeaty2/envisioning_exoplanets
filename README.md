@@ -43,8 +43,7 @@ If using the python files:
 * Create a new environment to run everything in.
 * Run this line in your terminal to get and save images: python getting_images.py -k <your_api_key> --planet-photographs
 * Run this line in your terminal to develop the prompts for each image in the training and exoplanet dataset: python prompt_generator_functions.py
-* Run this line in the terminal prepare the images to fine tune a Stable Diffusion model: 
-
+* Run this line in the terminal prepare the images to fine tune a Stable Diffusion model: python your_script.py --input-csv training_data_prompts.csv --output-csv updated_training_data_prompts.csv --data-folder data_huggingface --metadata-json metadata.json
 
 Please note that this project manipulated and adapted a Kohya Notebook to fine-tune Stable Diffusion, available here: https://colab.research.google.com/drive/1ZVukUuUMLxIZ6BgX7loKSMxcoBhfg70B#scrollTo=XhXhQY5Sov-g. As well as an Automatic1111 WebUI made available by The Last Ben, available here: https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb#scrollTo=Baw78R-w4T2j.
 
